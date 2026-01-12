@@ -1,6 +1,5 @@
 const mineflayer = require('mineflayer')
 const fs = require('fs');
-const { keep_alive } = require("./keep_alive");
 let rawdata = fs.readFileSync('config.json');
 let data = JSON.parse(rawdata);
 var lasttime = -1;
